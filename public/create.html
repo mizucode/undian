@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Font Family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Stylesheet -->
+		<link href="css/style.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+		<!-- Fav Icon -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<!-- Title -->
+		<title>PTIK B</title>
+	</head>
+	<body class="bg-slate-200">
+		<header class="bg-dark py-4">
+			<div class="container">
+				<main class="flex justify-between items-center">
+					<h1 class="font-bold text-white text-xl md:text-4xl">
+						Buat Tugas <span class="text-ylw">Kamu</span>
+					</h1>
+					<i
+						class="fa-solid fa-gear font-bold text-white text-xl md:text-4xl"
+					></i>
+				</main>
+			</div>
+		</header>
+
+		<form class="pt-4 h-full rounded-md">
+			<div class="container">
+				<section class="w-full py-4 lg:py-0 mb-2 lg:mb-8">
+					<div class="container">
+						<div class="relative">
+							<h1
+								class="bg-primary text-text text-center font-semibold py-4 rounded-t-md"
+							>
+								Mau nugas apa?
+							</h1>
+						</div>
+						<div class="bg-text shadow-sm py-8 rounded-b-md">
+							<form class="flex px-4 gap-2 justify-center">
+								<input
+									maxlength="255"
+									type="text"
+									placeholder="Menaklukan dunia  (⚈∇⚈〃 )"
+									class="text- font-semibold w-11/12 mx-auto lg:h-[10rem] flex justify-center py-2 px-2 lg:px-4 text-xs border border-primary rounded-md"
+								/>
+							</form>
+						</div>
+					</div>
+				</section>
+				<section class="w-full py-4 lg:py-0 mb-2 lg:mb-8">
+					<div class="container">
+						<div class="relative">
+							<h1
+								class="bg-primary text-text text-center font-semibold py-4 rounded-t-md"
+							>
+								Tentang apa sih?
+							</h1>
+						</div>
+						<div class="bg-text shadow-sm py-8 rounded-b-md h-[15rem]">
+							<form class="flex px-4 gap-2">
+								<textarea
+									maxlength="255"
+									type="text"
+									placeholder="Tahukah kamu? Otak diciptakan untuk mengingat bukan melupakan, ciptakan kenangan baru untuk melupakan masa lalu hwehehehe（＾ ∀＾）"
+									class="font-semibold w-full h-[10rem] py-2 px-2 text-xs border border-primary rounded-md"
+								></textarea>
+							</form>
+						</div>
+					</div>
+				</section>
+				<section class="w-full py-4 lg:py-0 mb-2 lg:mb-8">
+					<div class="container">
+						<div class="relative">
+							<h1
+								class="bg-primary text-text text-center font-semibold py-4 rounded-t-md"
+							>
+								Cieee jadian ama tugas (✿˵ ꒡◡꒡˵)
+							</h1>
+						</div>
+						<div
+							class="bg-text shadow-sm py-8 rounded-b-md h-[5rem] flex justify-center items-center"
+						>
+							<form
+								class="flex overflow-hidden px-4 gap-2 justify-center items-center"
+							>
+								<label for="start_date" class="font-semibold whitespace-nowrap"
+									>Tanggal Mulai:</label
+								>
+								<input
+									type="date"
+									name="start_date"
+									class="px-4 py-2 bg-slate-200"
+								/>
+							</form>
+						</div>
+					</div>
+				</section>
+				<section class="w-full py-4 lg:py-0 mb-2 lg:mb-8">
+					<div class="container">
+						<div class="relative">
+							<h1
+								class="bg-primary text-red-600 text-center font-semibold py-4 rounded-t-md"
+							>
+								Masa rebahan berakhir
+							</h1>
+						</div>
+						<div
+							class="bg-text shadow-sm py-8 rounded-b-md h-[5rem] flex justify-center items-center"
+						>
+							<form
+								class="flex overflow-hidden px-4 gap-2 justify-center items-center"
+							>
+								<label for="due_date" class="font-semibold whitespace-nowrap"
+									>Deadline:</label
+								>
+								<input
+									type="date"
+									name="due_date"
+									class="px-4 py-2 bg-slate-200"
+								/>
+							</form>
+						</div>
+					</div>
+				</section>
+
+				<button
+					type="submit"
+					class="px-2 mt-6 mb-32 py-1 mx-auto text-2xl bg-dsr rounded-md flex justify-center items-center gap-2 font-medium text-white hover:shadow-lg hover:bg-sky-500 transition duration-300 ease-in-out"
+				>
+					<i class="fa-solid fa-plus"></i> Buat Tugas
+				</button>
+
+				<div class="flex justify-center gap- items-center">
+					<button
+						type="submit"
+						class="px-2 mt-6 mb-32 py-1 mx-auto text-2xl bg-dsr rounded-md flex justify-center items-center gap-2 font-medium text-white hover:shadow-lg hover:bg-sky-500 transition duration-300 ease-in-out"
+					>
+						<i class="fa-solid fa-plus"></i> Update
+					</button>
+					<button
+						type="submit"
+						class="px-2 mt-6 mb-32 py-1 mx-auto text-2xl bg-red-500 rounded-md flex justify-center items-center gap-2 font-medium text-white hover:shadow-lg hover:bg-red-400 transition duration-300 ease-in-out"
+					>
+						<i class="fa-solid fa-minus"></i> Hapus
+					</button>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
